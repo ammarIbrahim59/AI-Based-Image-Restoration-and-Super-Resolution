@@ -1,0 +1,16 @@
+# Image Restoration & Super-Resolution — Python dependencies
+# A CUDA-capable GPU is strongly recommended. For a specific CUDA build, install
+# torch/torchvision from https://pytorch.org first, then the rest of this file.
+
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Image I/O
+opencv-python-headless>=4.8.0
+
+# Plotting & numerics
+matplotlib>=3.7.0
+numpy>=1.24.0
+
+# Progress bars
+tqdm>=4.65.0

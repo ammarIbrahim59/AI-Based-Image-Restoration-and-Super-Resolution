@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Model weights & large artefacts
+*.pth
+*.pt
+*.ckpt
+*.joblib
+*.h5
+
+# Generated outputs
+outputs/
+predictions.csv
+train.csv
+val.csv
+test.csv
+
+# Datasets — never commit these
+data/
+datasets/
+*.wav
+*.mp3
+*.zip
+*.tar
+*.tar.gz
+
+# Gradio
+flagged/
+gradio_cached_examples/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
